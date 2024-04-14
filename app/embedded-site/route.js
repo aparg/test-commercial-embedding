@@ -1,8 +1,9 @@
 // app/my-page/route.js
 import { NextResponse } from "next/server";
+import HomePage from "./HomePage";
 
 // List of authorized domains
-const authorizedDomains = [];
+const authorizedDomains = ["localhost:3000"];
 
 export async function GET(request) {
   // Retrieve the referrer URL or origin domain
@@ -30,5 +31,5 @@ export async function GET(request) {
   }
 
   // If the referrer or origin is authorized, return the page content
-  return NextResponse.json({ message: "This is the authorized page content." });
+  return NextResponse.render(<HomePage />);
 }
