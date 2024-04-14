@@ -1,0 +1,41 @@
+{
+  "name": "portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@nextui-org/react": "^2.2.9",
+    "@nextui-org/system": "^2.0.15",
+    "@nextui-org/theme": "^2.1.17",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.2",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^11.0.3",
+    "leaflet": "^1.9.4",
+    "lightgallery": "^2.7.2",
+    "next": "^13.4.19",
+    "nextjs-toploader": "^1.6.6",
+    "react": "^18.2.0",
+    "react-autosuggest": "^10.1.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-intersection-observer": "^9.7.0",
+    "react-leaflet": "^4.2.1",
+    "react-quill": "^2.0.0",
+    "simple-datatables": "^8.0.0",
+    "sweetalert": "^2.1.2",
+    "victory": "^37.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

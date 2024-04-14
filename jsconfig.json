@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "target": "es2021", // Set the target version to ES2021 or later
+    "lib": ["es2021"], // Include the necessary library files
+    "checkJs": true // Enable JavaScript error checking
+  }
+}
