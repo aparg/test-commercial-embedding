@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import HomePage from "./HomePage";
 
 // List of authorized domains
-const authorizedDomains = ["localhost:3000"];
+const authorizedDomains = ["test-commercial-embedding.vercel.app"];
 
 export async function GET(request) {
   // Retrieve the referrer URL or origin domain
