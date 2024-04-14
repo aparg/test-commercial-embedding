@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 
 // List of authorized domains
-const authorizedDomains = ["localhost:3000"];
+const authorizedDomains = [];
 
 export async function GET(request) {
   // Retrieve the referrer URL or origin domain
